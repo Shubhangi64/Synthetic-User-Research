@@ -1,0 +1,186 @@
+{
+    "experiment": {
+        "product": "AI Personal Shopping Platform",
+        "description": "\nAn AI-powered personal shopping platform that provides:\n- AI product recommendations\n- Price comparison\n- Personalized shopping feed\n- Review summarization\n- Virtual try-on\n- Price-drop alerts\n- Budget-based shopping\n- Brand comparison\n- Alternative product suggestions\n- Return-policy comparison\n- AI shopping assistant\n",
+        "target_audience": "Online shoppers aged 18–40",
+        "research_objective": "To understand the preferences, expectations, concerns, and behavioral responses of online shoppers toward an AI-powered personal shopping platform.",
+        "questions": [
+            "What do you think about using AI for personal shopping recommendations?",
+            "Would you trust this platform when buying an expensive product? Why?",
+            "Which feature would be most useful to you and why?",
+            "What is your biggest concern about using this platform?",
+            "How important are price comparison and price-drop alerts to you?",
+            "Would you use this product? Give a score from 1 to 5 and explain your reason."
+        ]
+    },
+    "questions": [
+        "What do you think about using AI for personal shopping recommendations?",
+        "Would you trust this platform when buying an expensive product? Why?",
+        "Which feature would be most useful to you and why?",
+        "What is your biggest concern about using this platform?",
+        "How important are price comparison and price-drop alerts to you?",
+        "Would you use this product? Give a score from 1 to 5 and explain your reason."
+    ],
+    "responses": [
+        {
+            "persona_id": "1",
+            "persona_name": "Marcus Vance",
+            "answers": [
+                {
+                    "question": "What do you think about using AI for personal shopping recommendations?",
+                    "answer": "AI can be useful for filtering through noise and narrowing down options based on technical specifications, provided the underlying algorithm is transparent and not merely pushing sponsored content. However, I am generally skeptical of black-box recommendation engines."
+                },
+                {
+                    "question": "Would you trust this platform when buying an expensive product? Why?",
+                    "answer": "Not implicitly. For high-ticket items like computing hardware or electronics, I rely on rigorous manual review of technical specifications, benchmark tests, and peer discussions. An AI platform is only as good as its data sources, and I would need to verify its claims independently before making a purchase."
+                },
+                {
+                    "question": "Which feature would be most useful to you and why?",
+                    "answer": "Review summarization combined with specification comparison. Parsing through hundreds of conflicting user reviews is time-consuming, so an objective synthesis of real user feedback alongside hard specs would directly address my goal of making informed purchases efficiently."
+                },
+                {
+                    "question": "What is your biggest concern about using this platform?",
+                    "answer": "Data privacy and algorithmic bias. I am concerned about what purchasing data is being tracked, how it is monetized, and whether the recommendations are truly optimized for my needs or skewed toward specific merchants paying for placement."
+                },
+                {
+                    "question": "How important are price comparison and price-drop alerts to you?",
+                    "answer": "Moderately important. While I appreciate data-driven value assessment, price is secondary to product reliability and quality. I want to ensure I am not overpaying, but the lowest price is rarely my primary deciding factor."
+                },
+                {
+                    "question": "Would you use this product? Give a score from 1 to 5 and explain your reason.",
+                    "answer": "I give it a score of 3. While features like review summarization and specs comparison align with my need to save time and make informed decisions, my deep concerns regarding privacy, data handling, and potential algorithmic bias make me hesitant to adopt it without strict data governance guarantees."
+                }
+            ],
+            "would_use_score": 3,
+            "would_use_reason": "The platform offers useful features for research and time-saving, but my strict privacy concerns and skepticism toward algorithmic recommendations limit my willingness to fully adopt it without clear data transparency."
+        },
+        {
+            "persona_id": "2",
+            "persona_name": "Chloe Lin",
+            "answers": [
+                {
+                    "question": "What do you think about using AI for personal shopping recommendations?",
+                    "answer": "Honestly, I'm super into it! As a fashion content creator, I'm always looking for new trends and items that stand out. If an AI can cut through the noise and show me unique stuff based on my visual vibe without me having to dig through endless boring pages, that's a massive win for saving time."
+                },
+                {
+                    "question": "Would you trust this platform when buying an expensive product? Why?",
+                    "answer": "Not really, TBH. For big-ticket or investment pieces, I'd rather rely on my own eyes, trusted creator reviews, or buying directly from the brand. AI can suggest cool trending pieces, but I wouldn't blindly trust it with a huge chunk of my cash for something expensive."
+                },
+                {
+                    "question": "Which feature would be most useful to you and why?",
+                    "answer": "The virtual try-on, 100%! Since I shop online weekly and care so much about how things look visually, being able to actually see how a trendy piece fits or drapes before clicking buy would change the game for me. It saves so much hassle with returns."
+                },
+                {
+                    "question": "What is your biggest concern about using this platform?",
+                    "answer": "My biggest worry is that the recommendations will get super repetitive. A lot of algorithms end up putting you in a style box and just showing you the exact same micro-trends over and over again. I want genuine discovery, not an echo chamber of the same clothes."
+                },
+                {
+                    "question": "How important are price comparison and price-drop alerts to you?",
+                    "answer": "They're okay, but honestly, I have low price sensitivity and care way more about style and uniqueness. If I love a piece because it's super trendy, I'm probably going to impulse-buy it right then. Price drops are a nice bonus, but not my main priority."
+                },
+                {
+                    "question": "Would you use this product? Give a score from 1 to 5 and explain your reason.",
+                    "answer": "I'd give it a 4. I am totally down to use it because the visual discovery and virtual try-on features sound amazing for my content creation and weekly shopping habit. I'm knocking it down one point just because I'm slightly worried about the recommendations getting repetitive over time."
+                }
+            ],
+            "would_use_score": 4,
+            "would_use_reason": "I would definitely use it for its awesome visual tools like virtual try-on and trendy discovery features, which fit my fast-paced shopping style, though I'm keeping an eye out to make sure the AI doesn't get repetitive."
+        },
+        {
+            "persona_id": "3",
+            "persona_name": "Elena Rostova",
+            "answers": [
+                {
+                    "question": "What do you think about using AI for personal shopping recommendations?",
+                    "answer": "It could be helpful if it actually saves me time, but I am worried it will just try to push trendy items I don't need instead of practical family goods."
+                },
+                {
+                    "question": "Would you trust this platform when buying an expensive product? Why?",
+                    "answer": "No, not right away. For expensive items, I rely heavily on verified customer reviews and trusted brand names, not an algorithm that might have hidden biases or affiliate incentives."
+                },
+                {
+                    "question": "Which feature would be most useful to you and why?",
+                    "answer": "Price comparison and budget-based shopping, because keeping household and children's expenses under strict control is my top priority."
+                },
+                {
+                    "question": "What is your biggest concern about using this platform?",
+                    "answer": "Constant upselling and hidden costs. I hate when a platform tries to trick me into spending more than I planned."
+                },
+                {
+                    "question": "How important are price comparison and price-drop alerts to you?",
+                    "answer": "Extremely important. With two kids, every dollar counts, and I always look for the best possible value before making a purchase."
+                },
+                {
+                    "question": "Would you use this product? Give a score from 1 to 5 and explain your reason.",
+                    "answer": "3. I would consider using it strictly for price comparisons and alerts on household items, but I'd remain skeptical of the AI recommendations and upselling."
+                }
+            ],
+            "would_use_score": 3,
+            "would_use_reason": "I see value in the price comparison and budgeting tools for my household shopping, but my concerns about upselling and lack of trust in AI recommendations keep me from fully committing."
+        },
+        {
+            "persona_id": "4",
+            "persona_name": "Jordan Hayes",
+            "answers": [
+                {
+                    "question": "What do you think about using AI for personal shopping recommendations?",
+                    "answer": "I have mixed feelings. Usually, algorithms just push whatever is trending or mass-produced, which doesn't align with my taste for distinctive, artisanal home decor. However, if the AI could actually look past mainstream popularity and understand my desire for sustainable, well-designed pieces from independent makers, it could be quite helpful for discovery."
+                },
+                {
+                    "question": "Would you trust this platform when buying an expensive product? Why?",
+                    "answer": "Not completely, especially for a significant investment like an accent chair or original art piece. For expensive items, I need to know the true provenance of the materials and verify the sustainability claims myself. I'd worry that an AI platform might greenwash products or push items based on sponsorships rather than true quality and ethical craftsmanship."
+                },
+                {
+                    "question": "Which feature would be most useful to you and why?",
+                    "answer": "The alternative product suggestions feature appeals to me the most. When I find a design I love but it's made from unsustainable materials or from a massive conglomerate, having an AI that can surface a nearly identical, eco-friendly option from an independent brand would save me hours of searching."
+                },
+                {
+                    "question": "What is your biggest concern about using this platform?",
+                    "answer": "My biggest concern is mass-market bias and misleading sustainability claims. I worry the platform will claim a product is 'eco-friendly' just because it uses organic cotton, while ignoring the larger supply chain footprint, ultimately pushing me toward fast-furniture disguised as sustainable design."
+                },
+                {
+                    "question": "How important are price comparison and price-drop alerts to you?",
+                    "answer": "They are moderately important. While I am willing to spend a bit more for original, sustainably made items, I still appreciate getting a fair deal. Price-drop alerts are nice for budgeting, but finding the right material and design always takes priority over getting the absolute lowest price."
+                },
+                {
+                    "question": "Would you use this product? Give a score from 1 to 5 and explain your reason.",
+                    "answer": "I give it a score of 3. I am intrigued by the potential to discover independent and sustainable home decor brands more easily, but I am inherently skeptical of AI's ability to appreciate true originality and avoid pushing generic, mass-market trends."
+                }
+            ],
+            "would_use_score": 3,
+            "would_use_reason": "I am curious about how well it can filter for genuine sustainability and independent makers, but I remain skeptical that it can truly understand my eclectic tastes without falling back on mass-market biases."
+        },
+        {
+            "persona_id": "5",
+            "persona_name": "Devon Miller",
+            "answers": [
+                {
+                    "question": "What do you think about using AI for personal shopping recommendations?",
+                    "answer": "Honestly, sounds like a lot of marketing fluff to me. I know what tools and parts I need for the garage, and I don't need a computer algorithm trying to guess my taste based on what I clicked on last week. Most of that AI stuff is just a gimmick."
+                },
+                {
+                    "question": "Would you trust this platform when buying an expensive product? Why?",
+                    "answer": "No way. When I'm dropping serious money on diagnostic equipment or heavy-duty gear, I rely on spec sheets, real feedback from guys in the trade, and brands I've trusted for twenty years. I'm not trusting an AI recommendation app with my hard-earned cash."
+                },
+                {
+                    "question": "Which feature would be most useful to you and why?",
+                    "answer": "Review summarization, maybe, if it actually cuts through the fake five-star fluff. But honestly, I'd rather just read the reviews myself. If I had to pick, comparing exact specifications side-by-side matters most to me because specs don't lie."
+                },
+                {
+                    "question": "What is your biggest concern about using this platform?",
+                    "answer": "Getting sold junk with flashy marketing. My main worry is the AI recommending something based on profit margins or sponsored placements rather than actual durability and specs, leading me to waste money on a piece of crap."
+                },
+                {
+                    "question": "How important are price comparison and price-drop alerts to you?",
+                    "answer": "They're alright, sure. If I'm buying a standard part, I want a fair price, but I care way more that the part actually holds up under heavy use than saving five bucks on a cheap imitation."
+                },
+                {
+                    "question": "Would you use this product? Give a score from 1 to 5 and explain your reason.",
+                    "answer": "I give it a 1. I'm an old-school mechanic. I know what brands work, I read real reviews, and I don't need an AI assistant complicating how I buy tools."
+                }
+            ],
+            "would_use_score": 1,
+            "would_use_reason": "I prefer sticking to proven brands, checking real specifications myself, and avoiding unnecessary tech gimmicks that just complicate shopping."
+        }
+    ]
+}
