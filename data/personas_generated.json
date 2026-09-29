@@ -1,0 +1,1341 @@
+[
+  {
+    "id": "sample-001",
+    "name": "Marcus Vance",
+    "age": 34,
+    "occupation": "Cybersecurity Analyst",
+    "location": "Austin, Texas",
+    "income": "$115,000",
+    "personality_traits": [
+      "Analytical",
+      "Skeptical",
+      "Pragmatic",
+      "Privacy-conscious"
+    ],
+    "communication_style": "Direct and analytical",
+    "decision_making_style": "Data-driven and cautious",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "Low",
+    "review_dependence": "High",
+    "technology_adoption": "High",
+    "impulse_buying": "Low",
+    "goals": [
+      "Save time",
+      "Make informed purchases"
+    ],
+    "motivations": [
+      "Reliable information",
+      "Convenience"
+    ],
+    "pain_points": [
+      "Too many product choices"
+    ],
+    "concerns": [
+      "Privacy",
+      "Algorithmic bias",
+      "Accuracy"
+    ],
+    "values": [
+      "Privacy",
+      "Evidence",
+      "Reliability"
+    ],
+    "preferred_categories": [
+      "Electronics",
+      "Computing"
+    ],
+    "preferred_brands": [
+      "Varies by product quality"
+    ],
+    "budget_preference": "Willing to pay for quality but compares value",
+    "important_product_factors": [
+      "Reviews",
+      "Specifications",
+      "Price",
+      "Reliability"
+    ],
+    "profile_summary": "A technology-comfortable but privacy-conscious shopper who researches products carefully."
+  },
+  {
+    "id": "sample-002",
+    "name": "Chloe Lin",
+    "age": 23,
+    "occupation": "Fashion Content Creator",
+    "location": "Los Angeles, California",
+    "income": "$48,000",
+    "personality_traits": [
+      "Trend-conscious",
+      "Expressive",
+      "Visual",
+      "Impatient"
+    ],
+    "communication_style": "Energetic and expressive",
+    "decision_making_style": "Visual and trend-driven",
+    "shopping_frequency": "Weekly",
+    "price_sensitivity": "Low",
+    "brand_loyalty": "Low",
+    "review_dependence": "Moderate",
+    "technology_adoption": "High",
+    "impulse_buying": "High",
+    "goals": [
+      "Discover trends",
+      "Save shopping time"
+    ],
+    "motivations": [
+      "Personalization",
+      "Visual discovery"
+    ],
+    "pain_points": [
+      "Too many similar products"
+    ],
+    "concerns": [
+      "Recommendations becoming repetitive"
+    ],
+    "values": [
+      "Style",
+      "Convenience",
+      "Discovery"
+    ],
+    "preferred_categories": [
+      "Fashion",
+      "Beauty",
+      "Accessories"
+    ],
+    "preferred_brands": [
+      "Emerging and trend-focused brands"
+    ],
+    "budget_preference": "Flexible for products that feel unique",
+    "important_product_factors": [
+      "Visual appeal",
+      "Trends",
+      "Virtual try-on",
+      "Price drops"
+    ],
+    "profile_summary": "A highly digital fashion shopper who values discovery, visual tools and trend-aware recommendations."
+  },
+  {
+    "id": "sample-003",
+    "name": "Elena Rostova",
+    "age": 39,
+    "occupation": "Working Mother of Two",
+    "location": "Chicago, Illinois",
+    "income": "$85,000",
+    "personality_traits": [
+      "Frugal",
+      "Practical",
+      "Organized",
+      "Time-conscious"
+    ],
+    "communication_style": "Practical and concise",
+    "decision_making_style": "Careful and value-oriented",
+    "shopping_frequency": "Bi-weekly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "High",
+    "review_dependence": "High",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Low",
+    "goals": [
+      "Save money",
+      "Save time",
+      "Buy reliable products"
+    ],
+    "motivations": [
+      "Family value",
+      "Convenience"
+    ],
+    "pain_points": [
+      "Limited shopping time"
+    ],
+    "concerns": [
+      "Upselling",
+      "Hidden costs",
+      "Poor quality"
+    ],
+    "values": [
+      "Value",
+      "Reliability",
+      "Family needs"
+    ],
+    "preferred_categories": [
+      "Household",
+      "Children",
+      "Groceries"
+    ],
+    "preferred_brands": [
+      "Trusted family brands"
+    ],
+    "budget_preference": "Strongly budget-conscious",
+    "important_product_factors": [
+      "Price",
+      "Reviews",
+      "Return policy",
+      "Reliability"
+    ],
+    "profile_summary": "A busy and value-conscious shopper who wants trustworthy recommendations without unnecessary upselling."
+  },
+  {
+    "id": "sample-004",
+    "name": "Jordan Hayes",
+    "age": 28,
+    "occupation": "Freelance Interior Stylist",
+    "location": "Portland, Oregon",
+    "income": "$62,000",
+    "personality_traits": [
+      "Detail-oriented",
+      "Eclectic",
+      "Sustainability-focused",
+      "Indecisive"
+    ],
+    "communication_style": "Thoughtful and descriptive",
+    "decision_making_style": "Exploratory and comparison-based",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "Moderate",
+    "review_dependence": "Moderate",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Moderate",
+    "goals": [
+      "Find distinctive products",
+      "Make sustainable choices"
+    ],
+    "motivations": [
+      "Design",
+      "Sustainability",
+      "Discovery"
+    ],
+    "pain_points": [
+      "Generic recommendations"
+    ],
+    "concerns": [
+      "Mass-market bias",
+      "Sustainability claims"
+    ],
+    "values": [
+      "Sustainability",
+      "Design",
+      "Originality"
+    ],
+    "preferred_categories": [
+      "Home decor",
+      "Furniture",
+      "Artisan goods"
+    ],
+    "preferred_brands": [
+      "Independent and sustainable brands"
+    ],
+    "budget_preference": "Moderate budget with flexibility for distinctive products",
+    "important_product_factors": [
+      "Design",
+      "Materials",
+      "Sustainability",
+      "Reviews"
+    ],
+    "profile_summary": "A design-oriented shopper who wants personalized and sustainable recommendations rather than generic popular products."
+  },
+  {
+    "id": "sample-005",
+    "name": "Devon Miller",
+    "age": 40,
+    "occupation": "Senior Auto Mechanic",
+    "location": "Detroit, Michigan",
+    "income": "$78,000",
+    "personality_traits": [
+      "Blunt",
+      "Practical",
+      "No-nonsense",
+      "Old-school"
+    ],
+    "communication_style": "Direct and informal",
+    "decision_making_style": "Function-first and experience-based",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "High",
+    "review_dependence": "High",
+    "technology_adoption": "Low",
+    "impulse_buying": "Low",
+    "goals": [
+      "Buy durable products",
+      "Avoid wasted money"
+    ],
+    "motivations": [
+      "Reliability",
+      "Durability"
+    ],
+    "pain_points": [
+      "Marketing claims",
+      "Overly complex interfaces"
+    ],
+    "concerns": [
+      "AI gimmicks",
+      "Incorrect specifications"
+    ],
+    "values": [
+      "Durability",
+      "Practicality",
+      "Reliability"
+    ],
+    "preferred_categories": [
+      "Tools",
+      "Automotive",
+      "Home improvement"
+    ],
+    "preferred_brands": [
+      "Established reliable brands"
+    ],
+    "budget_preference": "Moderate budget focused on durability",
+    "important_product_factors": [
+      "Durability",
+      "Specifications",
+      "Reviews",
+      "Price"
+    ],
+    "profile_summary": "A practical and technology-cautious shopper who trusts proven products and detailed specifications."
+  },
+  {
+    "name": "Amina Al-Hassan",
+    "age": 19,
+    "occupation": "College Student & Dorm Resident",
+    "location": "Chicago, IL, USA",
+    "income": "$12,000/year (Part-time campus job & allowance)",
+    "personality_traits": [
+      "Thrifty",
+      "Resourceful",
+      "Community-minded",
+      "Skeptical of corporate hype",
+      "Pragmatic"
+    ],
+    "communication_style": "Direct, informal, uses text-speak occasionally, values peer honesty over marketing copy.",
+    "decision_making_style": "Extremely deliberate; cross-references multiple student discount forums, thrift options, and generic alternatives before spending a single dollar.",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "Very High",
+    "brand_loyalty": "Very Low",
+    "review_dependence": "High",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Furnish a small college dorm room under a strict budget",
+      "Find durable clothing that survives frequent laundering without breaking the bank",
+      "Avoid hidden fees and subscription traps on shopping apps"
+    ],
+    "motivations": [
+      "Stretching limited funds to cover both textbooks and personal necessities",
+      "Discovering hidden clearances and stacking valid coupon codes automatically",
+      "Finding ethically produced or secondhand alternatives to fast fashion"
+    ],
+    "pain_points": [
+      "Most AI shopping apps push expensive, trendy items rather than genuinely affordable utility",
+      "Fake or incentivized reviews polluting e-commerce sites",
+      "Shipping costs unexpectedly doubling the price of a budget find at checkout"
+    ],
+    "concerns": [
+      "The platform might sell her personal browsing data to third-party advertisers",
+      "AI recommendations being secretly sponsored by high-markup brands instead of offering the cheapest option",
+      "Algorithmic lock-in that discourages manual searching for better deals"
+    ],
+    "values": [
+      "Financial independence",
+      "Transparency",
+      "Sustainability",
+      "Resourcefulness"
+    ],
+    "preferred_categories": [
+      "Textbooks & Academic Supplies",
+      "Affordable Dorm Decor",
+      "Basics & Casual Apparel",
+      "Budget-friendly Skincare"
+    ],
+    "preferred_brands": [
+      "Target",
+      "IKEA",
+      "Uniqlo",
+      "ThredUP"
+    ],
+    "budget_preference": "Ultra-budget / Value-driven",
+    "important_product_factors": [
+      "Total landed cost including shipping and taxes",
+      "Durability",
+      "Real user reviews from verified buyers",
+      "Presence of working discount codes"
+    ],
+    "profile_summary": "Amina is a hyper-budget-conscious college student who views shopping as a strategic puzzle rather than a leisure activity. While she is comfortable using digital tools, she approaches AI shopping platforms with immediate suspicion, constantly testing whether the algorithm is truly looking out for her wallet or just pushing higher-priced affiliate products.",
+    "id": "3cdf2c22-a5be-4f1b-81ff-c56bec4796eb"
+  },
+  {
+    "name": "Liam Sterling",
+    "age": 26,
+    "occupation": "Boutique Coffee Roaster & Micro-Batch Farmer",
+    "location": "Portland, Oregon",
+    "income": "$48,000",
+    "personality_traits": [
+      "Experiential",
+      "Slow-paced",
+      "Discerning",
+      "Tactile",
+      "Anti-algorithm"
+    ],
+    "communication_style": "Deliberate, thoughtful, uses sensory language and values authentic human connection over automated responses.",
+    "decision_making_style": "Deeply research-driven, values physical touch and local provenance, highly resistant to mass-market digital nudges.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "Low",
+    "brand_loyalty": "High",
+    "review_dependence": "Low",
+    "technology_adoption": "Very Low",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Support independent artisans and sustainable local supply chains",
+      "Minimize digital footprint and screen time",
+      "Invest in durable, high-craftsmanship goods that last decades"
+    ],
+    "motivations": [
+      "Authenticity and tangible craftsmanship",
+      "Reducing consumerism and mindless purchasing",
+      "Ethical labor and transparent sourcing"
+    ],
+    "pain_points": [
+      "Overwhelming algorithmic noise and targeted ads filling the internet",
+      "Lack of genuine human curation in modern e-commerce",
+      "Difficulty finding truly independent brands among dropshipped products"
+    ],
+    "concerns": [
+      "AI homogenizing culture by pushing trending generic products",
+      "Loss of serendipitous discovery in physical stores",
+      "Data harvesting by hyper-personalized shopping engines"
+    ],
+    "values": [
+      "Craftsmanship",
+      "Sustainability",
+      "Provenance",
+      "Digital minimalism"
+    ],
+    "preferred_categories": [
+      "Specialty Coffee Gear",
+      "Handmade Ceramics",
+      "Raw Denim & Heritage Workwear",
+      "Analog Photography Equipment"
+    ],
+    "preferred_brands": [
+      "Fellow",
+      "Rogue Territory",
+      "Hasami Porcelain",
+      "Leica"
+    ],
+    "budget_preference": "Quality-first; willing to save up significantly for investment pieces.",
+    "important_product_factors": [
+      "Material durability",
+      "Ethical manufacturing",
+      "Maker transparency",
+      "Repairability"
+    ],
+    "profile_summary": "Liam is a tactile, slow-living artisan who actively avoids automated tech and algorithmic shopping. He prefers buying durable, heritage-grade goods directly from makers. He views an AI personal shopping platform with deep skepticism, seeing it as the antithesis of mindful, intentional consumption, and worries that hyper-personalization strips the soul out of buying.",
+    "id": "20ea1138-31ef-47cf-aff1-70e61968d2ed"
+  },
+  {
+    "name": "Maya Lin-Gomez",
+    "age": 31,
+    "occupation": "Corporate Wellness Coordinator",
+    "location": "Austin, Texas",
+    "income": "$78,000",
+    "personality_traits": [
+      "Health-conscious",
+      "Anxious",
+      "Perfectionist",
+      "Optimistic",
+      "Community-focused"
+    ],
+    "communication_style": "Warm, verbose, and detail-oriented, often asking clarifying questions.",
+    "decision_making_style": "Extensive research followed by sudden, emotional purchasing decisions when alignment is found.",
+    "shopping_frequency": "Bi-weekly",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "Moderate",
+    "review_dependence": "Very High",
+    "technology_adoption": "High",
+    "impulse_buying": "Moderate",
+    "goals": [
+      "Maintain a balanced, sustainable, and toxin-free lifestyle for her household.",
+      "Streamline online shopping to save time for wellness activities and family.",
+      "Find ethically sourced wellness and home goods without spending hours comparing ingredients."
+    ],
+    "motivations": [
+      "Desire for self-care and holistic living.",
+      "Trust in peer validation and expert-backed safety ratings.",
+      "Convenience in filtering out greenwashed or low-quality products."
+    ],
+    "pain_points": [
+      "Information overload from conflicting health and product reviews online.",
+      "Wasting money on wellness products or supplements that don't live up to their claims.",
+      "Difficulty finding trustworthy brands that align with her specific dietary and ethical requirements."
+    ],
+    "concerns": [
+      "AI shopping platforms might prioritize sponsored corporate products over genuinely healthy or ethical alternatives.",
+      "Data privacy regarding her personal wellness metrics and shopping habits being sold to third parties.",
+      "The accuracy of virtual try-ons and ingredient summarizations."
+    ],
+    "values": [
+      "Transparency",
+      "Holistic health",
+      "Sustainability",
+      "Consumer advocacy",
+      "Efficiency"
+    ],
+    "preferred_categories": [
+      "Clean Beauty & Skincare",
+      "Organic Groceries & Supplements",
+      "Eco-Friendly Home Goods",
+      "Activewear & Athleisure"
+    ],
+    "preferred_brands": [
+      "Pact",
+      "Thrive Market",
+      "Credo Beauty",
+      "Dr. Bronner's"
+    ],
+    "budget_preference": "Value-driven quality; willing to pay more for verified safe and ethical products, but strictly avoids overpriced luxury marketing.",
+    "important_product_factors": [
+      "Clean ingredients / ethical sourcing",
+      "Comprehensive review summaries",
+      "Return policy clarity",
+      "Price comparison across ethical retailers"
+    ],
+    "profile_summary": "Maya is a wellness-focused corporate coordinator who relies heavily on reviews and clean-label verification. As an enthusiastic tech adopter, she is open to an AI shopping assistant as long as it respects her data privacy and demonstrates true transparency rather than corporate bias, helping her cut through greenwashing to find genuinely sustainable products.",
+    "id": "05d5582d-fa82-4e82-b52b-791eff746acd"
+  },
+  {
+    "name": "Kaelen Voss",
+    "age": 21,
+    "occupation": "Indie Game Developer & Streamer",
+    "location": "Portland, Oregon, USA",
+    "income": "$24,000/year",
+    "personality_traits": [
+      "Experimental",
+      "Gamer-centric",
+      "Tech-fluent",
+      "Impatient",
+      "Niche-focused"
+    ],
+    "communication_style": "Casual, fast-paced, uses internet slang and gaming terminology.",
+    "decision_making_style": "Data-driven, spec-sheet obsessed, quick to jump on high-performance gear based on community benchmarks.",
+    "shopping_frequency": "Weekly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Very Low",
+    "review_dependence": "Very High",
+    "technology_adoption": "Very High",
+    "impulse_buying": "High",
+    "goals": [
+      "Upgrade streaming setup on a tight budget",
+      "Find custom mechanical keyboard parts quickly without digging through forums",
+      "Discover emerging tech and peripheral brands before they go mainstream"
+    ],
+    "motivations": [
+      "Getting the absolute best specs per dollar spent",
+      "Instant gratification and fast shipping",
+      "Customizing and personalizing setup aesthetics for stream viewers"
+    ],
+    "pain_points": [
+      "Overwhelmed by countless knock-off brands on online marketplaces",
+      "Hidden fees and inflated shipping costs at checkout",
+      "Sifting through fake or paid reviews on tech products"
+    ],
+    "concerns": [
+      "AI recommendations pushing sponsored garbage instead of genuinely good hardware",
+      "Data tracking and algorithmic profiling of search habits",
+      "Outdated pricing data leading to dead links or out-of-stock items"
+    ],
+    "values": [
+      "Performance-to-cost ratio",
+      "Transparency",
+      "Community consensus"
+    ],
+    "preferred_categories": [
+      "PC Gaming Hardware",
+      "Audio & Streaming Equipment",
+      "Ergonomic Desk Accessories",
+      "LED Lighting & Room Decor"
+    ],
+    "preferred_brands": [
+      "Razer",
+      "Keychron",
+      "Elgato",
+      "Anker"
+    ],
+    "budget_preference": "Value-seeker looking for mid-tier performance at budget prices, heavily reliant on discount codes and sales alerts.",
+    "important_product_factors": [
+      "Technical specifications",
+      "Community review aggregation",
+      "Price drop history",
+      "Compatibility with existing setup"
+    ],
+    "profile_summary": "Kaelen is a 21-year-old indie game developer and live streamer who lives online. Always searching for the best hardware and desk aesthetics on a student-adjacent budget, Kaelen loves cutting-edge tech and automation tools like AI shopping assistants—provided they actually surface real discounts and honest community reviews rather than sponsored product placements.",
+    "id": "8f2fd8c9-3b14-4ed0-913b-9d6784d2ceee"
+  },
+  {
+    "name": "Zane Montgomery",
+    "age": 36,
+    "occupation": "Luxury Estate Butler & Private Concierge",
+    "location": "Boston, MA",
+    "income": "$115,000",
+    "personality_traits": [
+      "Discreet",
+      "Perfectionist",
+      "Traditional",
+      "Discerning",
+      "Methodical"
+    ],
+    "communication_style": "Formal, articulate, and precise. Prefers professional correspondence and values courteous, direct service without fluff.",
+    "decision_making_style": "Deliberate and research-intensive. Relies heavily on heritage, craftsmanship, and exclusivity rather than algorithmic trends.",
+    "shopping_frequency": "Bi-weekly",
+    "price_sensitivity": "Very Low",
+    "brand_loyalty": "High",
+    "review_dependence": "Low",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Source rare, high-quality home goods and bespoke items for high-net-worth employers efficiently",
+      "Maintain absolute discretion regarding personal and professional purchases",
+      "Discover niche artisan brands that offer superior longevity and materials"
+    ],
+    "motivations": [
+      "Excellence in curation and procurement",
+      "Saving valuable time on administrative sourcing so he can focus on experiential details",
+      "Acquiring items of heirloom quality"
+    ],
+    "pain_points": [
+      "Sifting through endless low-quality mass-market options online to find elite alternatives",
+      "Unreliable delivery timelines and subpar customer service from modern e-commerce sites",
+      "Lack of true personalization that understands high-end luxury parameters"
+    ],
+    "concerns": [
+      "Data privacy and the leakage of exclusive purchasing habits to public databases",
+      "AI recommendations feeling too commercialized, pushy, or mass-market rather than genuinely bespoke",
+      "Counterfeit luxury goods infiltrating aggregated shopping platforms"
+    ],
+    "values": [
+      "Craftsmanship",
+      "Privacy",
+      "Heritage",
+      "Reliability",
+      "Elegance"
+    ],
+    "preferred_categories": [
+      "Bespoke Home Furnishings",
+      "Fine Linens and Tableware",
+      "Artisan Leather Goods",
+      "High-End Gourmet Provisions",
+      "Vintage Horology"
+    ],
+    "preferred_brands": [
+      "Hermès",
+      "Frette",
+      "Valextra",
+      "Christofle",
+      "Rimowa"
+    ],
+    "budget_preference": "Uncapped for quality; prioritizes absolute value and durability over cost-saving.",
+    "important_product_factors": [
+      "Material authenticity",
+      "Brand heritage",
+      "White-glove delivery options",
+      "Return policy flexibility",
+      "Exclusivity"
+    ],
+    "profile_summary": "Zane is a meticulous professional who curates elite goods for luxury estates. While generally traditional and protective of his privacy, he is willing to test AI shopping platforms if they can genuinely streamline the sourcing of rare, high-end items without compromising confidentiality or taste.",
+    "id": "8fe56554-f3e2-4d29-aa7c-81b3e852aaef"
+  },
+  {
+    "name": "Siddharth \"Sid\" Rao",
+    "age": 30,
+    "occupation": "Accessibility QA Tester",
+    "location": "Seattle, WA, USA",
+    "income": "$72,000",
+    "personality_traits": [
+      "Detail-oriented",
+      "Incusive",
+      "Methodical",
+      "Advocacy-driven",
+      "Cautious"
+    ],
+    "communication_style": "Clear, deliberate, and descriptive; frequently asks clarifying questions about UX and software accessibility.",
+    "decision_making_style": "Extremely deliberate, relies heavily on objective usability and tactile feedback reports before committing to a purchase.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Moderate",
+    "review_dependence": "Very High",
+    "technology_adoption": "High",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Find durable, ergonomic products that genuinely accommodate specific physical accessibility needs without corporate greenwashing or ableist design flaws",
+      "Avoid spending hours navigating poorly optimized e-commerce interfaces that fail screen readers or keyboard navigation",
+      "Secure the best long-term value for essential utility and comfort items"
+    ],
+    "motivations": [
+      "Ensuring every product he buys serves a functional purpose and won't need to be replaced due to poor build quality",
+      "Supporting brands that invest heavily in inclusive design and transparent supply chains",
+      "Saving time on repetitive web searches by using tools that respect digital accessibility standards"
+    ],
+    "pain_points": [
+      "AI tools and recommendation engines that break screen readers, use low-contrast text, or fail basic web accessibility guidelines",
+      "Virtual try-on features that are completely inaccessible to visually impaired users or fail to account for diverse body types and mobility aids",
+      "Review summaries generated by AI that gloss over critical usability flaws mentioned by real human reviewers"
+    ],
+    "concerns": [
+      "The platform's AI might hallucinate product specifications regarding physical dimensions or accessibility features",
+      "Data privacy regarding assistive tech usage data and personalized shopping patterns",
+      "Algorithmic bias pushing trendy, inaccessible items over functional, well-tested alternatives"
+    ],
+    "values": [
+      "Universal design",
+      "Transparency",
+      "Digital equity",
+      "Functional longevity",
+      "Consumer protection"
+    ],
+    "preferred_categories": [
+      "Ergonomic furniture",
+      "Adaptive clothing",
+      "Assistive technology",
+      "Home automation",
+      "Durable kitchenware"
+    ],
+    "preferred_brands": [
+      "OXO",
+      "IKEA",
+      "Logitech",
+      "Tommy Hilfiger Adaptive",
+      "Steelcase"
+    ],
+    "budget_preference": "Value-driven with strict caps on non-essential purchases; willing to invest more only if clear ergonomic or durability proof is provided.",
+    "important_product_factors": [
+      "Accessibility compliance",
+      "Build durability",
+      "Ergonomic design",
+      "True-to-life customer reviews",
+      "Clear return policies"
+    ],
+    "profile_summary": "Siddharth is an accessibility QA tester who approaches online shopping with a strict focus on universal design, ergonomics, and functional longevity. As someone who relies heavily on digital accessibility standards, he evaluates AI shopping tools through a critical lens, demanding seamless screen reader compatibility, transparent review summaries, and zero reliance on inaccessible flashy features like broken virtual try-ons.",
+    "id": "5f63f398-6880-4abd-b952-467a4c18c478"
+  },
+  {
+    "name": "Béatrice Dumont",
+    "age": 37,
+    "occupation": "Antique Restorer & Art Conservator",
+    "location": "Quebec City, Canada",
+    "income": "$62,000 CAD",
+    "personality_traits": [
+      "Patient",
+      "Sentimental",
+      "Materially conservative",
+      "Reflective",
+      "Quality-obsessed"
+    ],
+    "communication_style": "Articulate, deliberate, and measured; uses descriptive artisan vocabulary.",
+    "decision_making_style": "Extremely slow and contemplative; evaluates items based on longevity, material integrity, and emotional resonance rather than utility.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "Low",
+    "brand_loyalty": "High",
+    "review_dependence": "Low",
+    "technology_adoption": "Very Low",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Source authentic restoration materials and tools that last lifetimes",
+      "Minimize modern consumer clutter by buying only enduring, repairable items",
+      "Support heritage artisans and independent toolmakers"
+    ],
+    "motivations": [
+      "Preservation of craftsmanship",
+      "The tactile experience of authentic materials (linen, wood, brass)",
+      "Reducing the environmental footprint through anti-fast-fashion and anti-disposable mentalities"
+    ],
+    "pain_points": [
+      "The internet is flooded with cheap, planned-obsolescence goods disguised as vintage or rustic",
+      "Difficulty finding obscure, specialized restoration supplies online",
+      "Overwhelming modern e-commerce interfaces that prioritize speed and flashing discounts over deep product history"
+    ],
+    "concerns": [
+      "AI algorithms will misunderstand her taste, recommending trendy or mass-produced items instead of artisanal ones",
+      "Loss of traditional human curation in favor of homogenized, data-driven shopping feeds",
+      "Data tracking used to push addictive consumerist habits"
+    ],
+    "values": [
+      "Durability",
+      "Heritage",
+      "Authenticity",
+      "Mindfulness"
+    ],
+    "preferred_categories": [
+      "Fine woodworking tools",
+      "Natural restoration supplies",
+      "Heritage textiles",
+      "Handmade kitchenware",
+      "Analog notebooks"
+    ],
+    "preferred_brands": [
+      "Lie-Nielsen Toolworks",
+      "Le Creuset",
+      "Muji",
+      "Local independent artisans"
+    ],
+    "budget_preference": "Prefers paying high upfront costs for lifetime-warranty items rather than frequent cheap replacements.",
+    "important_product_factors": [
+      "Material composition",
+      "Origin of manufacture",
+      "Repairability",
+      "Timeless design"
+    ],
+    "profile_summary": "Béatrice is an antique restorer who views shopping as a rare, sacred act of acquiring permanent companions rather than disposable goods. Highly skeptical of modern algorithmic trends and fast-paced tech, she finds platforms driven by AI recommendations largely superficial, preferring human-curated heritage goods and tactile evaluation.",
+    "id": "dc885f66-c52e-4671-bee9-b692e9403806"
+  },
+  {
+    "name": "Jasper Vance-Cole",
+    "age": 25,
+    "occupation": "Mobile RV Gypsetter & Digital Nomad",
+    "location": "Nomadic (Currently Pacific Northwest)",
+    "income": "$42,000/year",
+    "personality_traits": [
+      "Minimalist",
+      "Adaptable",
+      "Resource-conscious",
+      "Nomadic",
+      "Pragmatic"
+    ],
+    "communication_style": "Casual, concise, relies heavily on mobile shorthand and direct questions",
+    "decision_making_style": "Function-first, space-aware, hyper-focused on physical dimensions and multi-use capabilities",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Very Low",
+    "review_dependence": "High",
+    "technology_adoption": "High",
+    "impulse_buying": "Low",
+    "goals": [
+      "Equip a tiny living space with durable, multi-functional items",
+      "Keep weight and cargo volume to an absolute minimum",
+      "Avoid shipping delays by utilizing local pickup options along travel routes"
+    ],
+    "motivations": [
+      "Finding gear that serves more than one purpose to save physical space",
+      "Stretching a modest nomad budget without sacrificing build quality",
+      "Automating deal tracking so he doesn't have to monitor prices manually with limited cell service"
+    ],
+    "pain_points": [
+      "Buying items online only to find out they don't fit through the RV door or take up too much storage",
+      "Unreliable internet connection making complex shopping apps frustratingly slow",
+      "Wifting through generic lifestyle marketing that doesn't account for extreme durability or off-grid usage"
+    ],
+    "concerns": [
+      "AI product recommendations suggesting bulky, single-use items that clutter small spaces",
+      "App draining mobile data or failing to function in low-signal areas",
+      "Return logistics being impossible when constantly moving between towns"
+    ],
+    "values": [
+      "Spatial efficiency",
+      "Durability",
+      "Utility",
+      "Mobility"
+    ],
+    "preferred_categories": [
+      "Compact camping & outdoor gear",
+      "Portable tech & power banks",
+      "Space-saving kitchenware",
+      "Off-grid organizational tools"
+    ],
+    "preferred_brands": [
+      "Anker",
+      "Yeti",
+      "Sea to Summit",
+      "Hydro Flask"
+    ],
+    "budget_preference": "Mid-tier value with an emphasis on high longevity per dollar",
+    "important_product_factors": [
+      "Physical dimensions and weight",
+      "Multi-functionality",
+      "Durability warranty",
+      "Ease of return"
+    ],
+    "profile_summary": "Jasper lives and works out of a heavily modified camper van, meaning every square inch and ounce matters. He is deeply skeptical of standard e-commerce recommendations that push trendy, single-use items. He uses technology heavily to manage life on the road but demands absolute utility, looking to AI shopping platforms strictly to filter out clutter, compare exact physical specs, and alert him to price drops on durable gear without wasting his limited mobile data.",
+    "id": "375634e2-fb92-41b6-8034-b8515bf1b8c4"
+  },
+  {
+    "name": "Evelyn \"Evie\" Thorne",
+    "age": 40,
+    "occupation": "Forensic Accountant",
+    "location": "Chicago, IL, USA",
+    "income": "$115,000",
+    "personality_traits": [
+      "Inquisitive",
+      "Thorough",
+      "Skeptical",
+      "Risk-averse",
+      "Methodical"
+    ],
+    "communication_style": "Precise, formal, and direct. Asks probing questions and looks for concrete evidence rather than marketing fluff.",
+    "decision_making_style": "Data-driven and exhaustive. Cross-references historical pricing, terms of service, and fine print before committing to any purchase.",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Low",
+    "review_dependence": "Very High",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Maximize savings through rigorous price tracking and verification",
+      "Avoid hidden fees, dynamic pricing traps, and deceptive return policies",
+      "Find durable goods that offer the absolute best return on investment"
+    ],
+    "motivations": [
+      "Securing financial efficiency and outsmarting inflated retail margins",
+      "Uncovering hidden patterns in consumer pricing data",
+      "Ensuring every dollar spent is fully optimized and accounted for"
+    ],
+    "pain_points": [
+      "Complex, multi-layered return policies buried in fine print",
+      "Fake or heavily incentivized product reviews distorting the true quality",
+      "Dynamic pricing models that artificially raise prices when items are viewed frequently"
+    ],
+    "concerns": [
+      "Data privacy and how personal financial or shopping habits are monetized by AI tools",
+      "AI recommendation algorithms favoring sponsored brands rather than objectively best-value products",
+      "Inaccurate price-drop alerts that trigger false alarms or miss flash sales"
+    ],
+    "values": [
+      "Transparency",
+      "Financial prudence",
+      "Accountability",
+      "Objectivity"
+    ],
+    "preferred_categories": [
+      "Office Ergonomics",
+      "Home Security Appliances",
+      "Financial Software/Tools",
+      "Durable Kitchenware",
+      "Functional Workwear"
+    ],
+    "preferred_brands": [
+      "Anker",
+      "Logitech",
+      "Carhartt",
+      "Ninja",
+      "Samsonite"
+    ],
+    "budget_preference": "Value-optimized, strict adherence to predefined cost limits with zero tolerance for unnecessary upsells.",
+    "important_product_factors": [
+      "Total Cost of Ownership",
+      "Warranty terms",
+      "Return-policy clarity",
+      "Verified long-term durability",
+      "Historical price low guarantees"
+    ],
+    "profile_summary": "Evelyn is a forensic accountant who approaches online shopping with the same rigorous scrutiny she applies to financial audits. She is deeply interested in AI-driven price comparison and return-policy analysis, but remains inherently skeptical of recommendation algorithms and data privacy practices. She will use an AI shopping platform exclusively if she can verify its objectivity and data security.",
+    "id": "1b3bb447-0d1e-4442-9487-e1253c95c14a"
+  },
+  {
+    "name": "Darius Vance",
+    "age": 18,
+    "occupation": "High School Graduate & Local Skatepark Attendant",
+    "location": "Albuquerque, New Mexico",
+    "income": "$18,000 / year",
+    "personality_traits": [
+      "Expressive",
+      "Casual",
+      "Community-driven",
+      "Trend-aware",
+      "Spontaneous"
+    ],
+    "communication_style": "Informal, uses modern slang, straightforward, and conversational.",
+    "decision_making_style": "Visual, heavily influenced by social media presence and peer validation.",
+    "shopping_frequency": "Weekly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Very Low",
+    "review_dependence": "Moderate",
+    "technology_adoption": "High",
+    "impulse_buying": "High",
+    "goals": [
+      "Build a distinct streetwear wardrobe on a very tight budget",
+      "Find limited-release sneaker drops before they sell out",
+      "Keep up with skate and street fashion aesthetics without going broke"
+    ],
+    "motivations": [
+      "Looking stylish and authentic within the local skate community",
+      "Snagging deep discounts on cool, emerging brands",
+      "The thrill of finding hidden gems online"
+    ],
+    "pain_points": [
+      "Cool clothes and gear are almost always overpriced",
+      "Too many tabs open trying to compare prices across different sites",
+      "Getting scammed by sketchy online dropshippers"
+    ],
+    "concerns": [
+      "AI recommendations might just push expensive corporate brands instead of authentic street labels",
+      "Hidden shipping fees ruining a good deal",
+      "Virtual try-on tools being inaccurate or glitchy"
+    ],
+    "values": [
+      "Authenticity",
+      "Affordability",
+      "Community culture",
+      "Self-expression"
+    ],
+    "preferred_categories": [
+      "Streetwear apparel",
+      "Skate gear and accessories",
+      "Sneakers",
+      "Casual electronics"
+    ],
+    "preferred_brands": [
+      "Vans",
+      "Dickies",
+      "Carhartt WIP",
+      "Independent Trading Co."
+    ],
+    "budget_preference": "Bargain-hunter / Value-focused drops",
+    "important_product_factors": [
+      "Price drop alerts",
+      "Alternative product suggestions",
+      "Price comparison across stores",
+      "Visual style matching"
+    ],
+    "profile_summary": "Darius is an 18-year-old skate attendant who lives and breathes streetwear culture. Constantly hunting for the next cool drop, he relies heavily on his phone to spot deals and compare prices across random online stores. While he loves tech and is open to an AI shopping assistant, he is easily turned off if the algorithm feels too corporate or pushes stuff way out of his part-time budget.",
+    "id": "9634804c-55a2-4437-aaa3-2e97f606262c"
+  },
+  {
+    "name": "Astrid Lindstrom",
+    "age": 32,
+    "occupation": "Wildlife Biologist & Field Researcher",
+    "location": "Bozeman, Montana, USA",
+    "income": "$68,000",
+    "personality_traits": [
+      "Pragmatic",
+      "Outdoorsy",
+      "Self-reliant",
+      "Data-driven",
+      "No-nonsense"
+    ],
+    "communication_style": "Direct, concise, and literal; prefers facts over marketing fluff.",
+    "decision_making_style": "Research-heavy; relies on field-tested durability ratings and technical specifications over aesthetics or influencer hype.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "High",
+    "review_dependence": "High",
+    "technology_adoption": "Moderate",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "To purchase long-lasting, highly functional technical gear that survives harsh field conditions without wasting time searching multiple websites.",
+      "To find verified alternative equipment when preferred gear is out of stock or discontinued."
+    ],
+    "motivations": [
+      "Durability and performance in extreme weather conditions",
+      "Efficiency in purchasing to maximize time spent in the field rather than shopping online"
+    ],
+    "pain_points": [
+      "E-commerce sites cluttered with lifestyle marketing rather than concrete technical data",
+      "Difficulty comparing rugged gear across different specialized outdoor retailers",
+      "Unreliable product reviews written by casual users who haven't actually tested gear in extreme environments"
+    ],
+    "concerns": [
+      "AI product recommendations prioritizing trendy or sponsored gear over genuinely durable, field-tested equipment",
+      "Inaccurate virtual try-on tools that fail to account for layering and functional mobility in outdoor apparel"
+    ],
+    "values": [
+      "Functional utility",
+      "Sustainability through longevity",
+      "Honesty in product manufacturing"
+    ],
+    "preferred_categories": [
+      "Technical outdoor apparel",
+      "Field research equipment",
+      "Camping and survival gear",
+      "Durable footwear"
+    ],
+    "preferred_brands": [
+      "Patagonia",
+      "Arc'teryx",
+      "Osprey",
+      "Garmin",
+      "Darn Tough"
+    ],
+    "budget_preference": "Willing to pay a higher upfront cost for superior durability and lifetime warranties.",
+    "important_product_factors": [
+      "Material specifications",
+      "Warranty terms",
+      "Field-tested user reviews",
+      "Brand repairability commitment"
+    ],
+    "profile_summary": "Astrid lives an active, field-based lifestyle where gear failure is not an option. She approaches online shopping with a researcher's eye, valuing raw specifications and tough-weather performance far above trends. While she appreciates platforms that cut down search time, she remains deeply skeptical of algorithmic suggestions unless they prove they understand the strict functional requirements of professional outdoor equipment.",
+    "id": "37ca3c27-de8b-405c-9242-0aacd2e44d7f"
+  },
+  {
+    "name": "Orson Wheeler",
+    "age": 27,
+    "occupation": "Suburban Transit Bus Driver",
+    "location": "Omaha, Nebraska, USA",
+    "income": "$48,000 / year",
+    "personality_traits": [
+      "Unpretentious",
+      "Reliable",
+      "Routine-oriented",
+      "Curious",
+      "Homebody"
+    ],
+    "communication_style": "Straightforward, down-to-earth, uses minimal slang, prefers direct answers over marketing fluff.",
+    "decision_making_style": "Deliberate and value-driven. Relies heavily on word-of-mouth and hard utility before making a purchase.",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "High",
+    "brand_loyalty": "Moderate",
+    "review_dependence": "Moderate",
+    "technology_adoption": "Low",
+    "impulse_buying": "Low",
+    "goals": [
+      "Find durable work boots and comfortable clothing that withstands long shifts",
+      "Upgrade home entertainment gear without blowing his savings",
+      "Spend less time scrolling through endless search results for basic household items"
+    ],
+    "motivations": [
+      "Getting maximum value for hard-earned money",
+      "Durability and practical longevity of everyday goods",
+      "Simplicity and saving time after long driving shifts"
+    ],
+    "pain_points": [
+      "Overwhelmed by sponsored search results that hide the real deals",
+      "Frustrated by complex checkout processes and hidden shipping fees",
+      "Difficulty finding clothes that fit well without trying them on in person"
+    ],
+    "concerns": [
+      "AI tools tracking his personal data or selling his shopping history to advertisers",
+      "Algorithmic recommendations pushing overpriced items instead of genuinely useful ones",
+      "Software glitches making online purchases more complicated than walking into a store"
+    ],
+    "values": [
+      "Reliability",
+      "Fair pricing",
+      "Honesty",
+      "Simplicity"
+    ],
+    "preferred_categories": [
+      "Workwear & Casual Apparel",
+      "Automotive Accessories",
+      "Home Electronics",
+      "Kitchen Gadgets"
+    ],
+    "preferred_brands": [
+      "Carhartt",
+      "Dickies",
+      "Anker",
+      "Sony"
+    ],
+    "budget_preference": "Strict budgeter who looks for mid-tier items on sale, prioritizing long-term durability over cheap disposability.",
+    "important_product_factors": [
+      "Durability",
+      "Price-to-performance ratio",
+      "Clear return policies",
+      "Real-world utility"
+    ],
+    "profile_summary": "Orson is a transit bus driver who values practical durability and straightforward pricing. While he is generally skeptical of tech buzzwords and automated assistants, he is open to tools that genuinely cut through online clutter and help him find solid deals on workwear and electronics without requiring him to jump through hoops.",
+    "id": "694bb776-541d-4591-98e8-fd52761611dd"
+  },
+  {
+    "name": "Rowan Thorne",
+    "age": 29,
+    "occupation": "Ethical Hacker & Cybersecurity Researcher",
+    "location": "Portland, OR, USA",
+    "income": "$115,000 / year",
+    "personality_traits": [
+      "Paranoid",
+      "Meticulous",
+      "Curious",
+      "Skeptical",
+      "Independent"
+    ],
+    "communication_style": "Direct, technical, concise, and relies on empirical proof rather than marketing claims.",
+    "decision_making_style": "Data-driven, risk-averse, highly research-intensive, and entirely immune to emotional or impulse-driven advertising.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "Low",
+    "brand_loyalty": "Moderate",
+    "review_dependence": "Very Low",
+    "technology_adoption": "High",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Procure durable, high-spec hardware and software tools without exposing personal metadata",
+      "Minimize exposure to targeted behavioral tracking and ad-tech monopolies",
+      "Find products with verifiable supply-chain transparency and open-source compatibility"
+    ],
+    "motivations": [
+      "Absolute digital privacy and ownership of personal data",
+      "Maximum functional longevity and repairability of purchased goods",
+      "Uncompromising technical specifications over brand prestige"
+    ],
+    "pain_points": [
+      "E-commerce platforms demanding excessive permissions, tracking, and personal data usage",
+      "Dark patterns designed to trick users into subscriptions or data sharing",
+      "Inability to audit the underlying recommendation algorithms or see why a product was suggested"
+    ],
+    "concerns": [
+      "AI shopping platforms harvesting shopping history, location data, and browsing habits to build invasive behavioral profiles",
+      "Security vulnerabilities in third-party retail APIs integrated into the assistant",
+      "Biased AI recommendations driven by affiliate commissions rather than objective utility"
+    ],
+    "values": [
+      "Data sovereignty",
+      "Digital privacy",
+      "Technical authenticity",
+      "Right to repair"
+    ],
+    "preferred_categories": [
+      "Tech Hardware",
+      "Privacy Tools",
+      "Ergonomic Gear",
+      "Outdoor Survival Equipment"
+    ],
+    "preferred_brands": [
+      "Framework",
+      "System76",
+      "Patagonia",
+      "Herman Miller"
+    ],
+    "budget_preference": "Quality-first; willing to pay a high upfront cost if a product meets rigorous durability and privacy standards.",
+    "important_product_factors": [
+      "Zero data-selling policies",
+      "Open-source or auditable software integration",
+      "Repairability index",
+      "Absence of forced telemetry"
+    ],
+    "profile_summary": "Rowan is an elite cybersecurity researcher who views every consumer-facing AI tool through a lens of extreme skepticism. While technically sophisticated and an early adopter of useful software, Rowan refuses to use any platform that trades privacy for convenience. They would only touch an AI personal shopping assistant if its code were open-source, operated entirely locally or with zero-knowledge encryption, and had no financial incentive to push affiliate-driven recommendations.",
+    "id": "487c9838-bfff-49e9-a9f9-d8649b09db70"
+  },
+  {
+    "name": "Genevieve Dubois",
+    "age": 35,
+    "occupation": "Boutique Vineyard Owner & Sommelier",
+    "location": "Napa Valley, California, USA",
+    "income": "$85,000",
+    "personality_traits": [
+      "Refined",
+      "Discerning",
+      "Sensory-driven",
+      "Independent",
+      "Quality-obsessed"
+    ],
+    "communication_style": "Eloquent, descriptive, and deliberate; appreciates artisanal terminology and clear provenance.",
+    "decision_making_style": "Deliberate and tactile; relies heavily on sensory details, expert curation, and long-term value over quick fixes.",
+    "shopping_frequency": "Monthly",
+    "price_sensitivity": "Low",
+    "brand_loyalty": "High",
+    "review_dependence": "Low",
+    "technology_adoption": "Low",
+    "impulse_buying": "Low",
+    "goals": [
+      "Source durable, aesthetically pleasing home goods and professional-grade kitchenware that match her rustic-chic aesthetic",
+      "Discover small-batch, artisan-crafted lifestyle products without wading through mass-market noise",
+      "Support independent makers and sustainable businesses"
+    ],
+    "motivations": [
+      "Curating an authentic, high-quality living and working environment",
+      "Valuing craftsmanship, heritage, and stories behind products",
+      "Saving time on routine procurement so she can focus on her vineyard and guests"
+    ],
+    "pain_points": [
+      "Overwhelmed by algorithmic feeds that push generic, fast-consumer goods instead of artisanal quality",
+      "Frustrated by virtual try-ons or AI recommendations that prioritize tech novelty over tactile and material accuracy",
+      "Lack of transparency regarding the true origin and craftsmanship of products online"
+    ],
+    "concerns": [
+      "AI shopping platforms might homogenize her taste by pushing trending items rather than timeless craftsmanship",
+      "Loss of the human touch and expert curation in the digital shopping experience",
+      "Data tracking used to feed aggressive, hyper-targeted marketing campaigns"
+    ],
+    "values": [
+      "Authenticity",
+      "Craftsmanship",
+      "Sustainability",
+      "Provenance",
+      "Aesthetic harmony"
+    ],
+    "preferred_categories": [
+      "Artisanal Kitchenware",
+      "Handmade Home Decor",
+      "Organic Linen Apparel",
+      "Specialty Tableware",
+      "Natural Grooming Products"
+    ],
+    "preferred_brands": [
+      "Le Creuset",
+      "Fage",
+      "Local Heritage Potters",
+      "Muji",
+      "Patagonia"
+    ],
+    "budget_preference": "Value-for-quality; willing to pay a premium for exceptional materials and durability.",
+    "important_product_factors": [
+      "Material quality and durability",
+      "Ethical and sustainable production",
+      "Aesthetic appeal and design integrity",
+      "Brand heritage and maker transparency"
+    ],
+    "profile_summary": "Genevieve is a passionate sommelier and vineyard owner who lives a tactile, quality-driven lifestyle. She approaches online shopping with a discerning eye, favoring artisanal craftsmanship and timeless design over fast trends. While she values efficiency, she is skeptical of algorithm-driven platforms that sacrifice authenticity for mass appeal, preferring platforms that respect her intelligence and appreciation for provenance.",
+    "id": "f6c74000-4f66-4548-aa56-3e6049c95e12"
+  },
+  {
+    "name": "Barnaby \"Barney\" Finch",
+    "age": 40,
+    "occupation": "Historic Home Preservationist",
+    "location": "Savannah, Georgia",
+    "income": "$62,000",
+    "personality_traits": [
+      "Traditional",
+      "Methodical",
+      "Detail-obsessed",
+      "Sentimental",
+      "Cautious"
+    ],
+    "communication_style": "Deliberate and formal, often using architectural or historical analogies.",
+    "decision_making_style": "Slow, heavily research-driven, prioritizing structural longevity and historical accuracy over modern trends.",
+    "shopping_frequency": "Rarely",
+    "price_sensitivity": "Moderate",
+    "brand_loyalty": "High",
+    "review_dependence": "Low",
+    "technology_adoption": "Low",
+    "impulse_buying": "Very Low",
+    "goals": [
+      "Source authentic materials and period-accurate hardware for restoration projects",
+      "Support heritage craftsmanship and independent toolmakers",
+      "Minimize waste by repairing rather than replacing goods"
+    ],
+    "motivations": [
+      "Preserving quality and durability from an era before planned obsolescence",
+      "Ensuring tools and home fixtures will outlast his lifetime"
+    ],
+    "pain_points": [
+      "Modern e-commerce sites cluttered with cheap, low-quality knockoffs disguised as vintage items",
+      "Difficulty finding precise specifications and material composition on standard retail product pages",
+      "Overwhelming reliance on algorithmic trend feeds that do not cater to niche restoration needs"
+    ],
+    "concerns": [
+      "AI tools pushing trendy, mass-produced items instead of durable, time-tested alternatives",
+      "Data tracking used to market disposable consumer goods rather than long-lasting investments",
+      "Lack of human tactile verification when purchasing specialized hardware online"
+    ],
+    "values": [
+      "Craftsmanship",
+      "Durability",
+      "Authenticity",
+      "Heritage"
+    ],
+    "preferred_categories": [
+      "Architectural Hardware",
+      "Hand Tools",
+      "Period-Correct Home Fixtures",
+      "Natural Woodfinishes"
+    ],
+    "preferred_brands": [
+      "Lie-Nielsen",
+      "House of Antique Hardware",
+      "Baldwin",
+      "Emtek"
+    ],
+    "budget_preference": "Value-in-longevity; willing to pay a high upfront cost if an item lasts multiple decades.",
+    "important_product_factors": [
+      "Material composition",
+      "Country of manufacture",
+      "Warranty length",
+      "Historical or functional accuracy"
+    ],
+    "profile_summary": "Barney is a historic home preservationist who values enduring craftsmanship and heritage materials. Highly skeptical of modern digital trends and fast consumerism, he prefers time-tested brands and physical inspection. He finds AI-driven shopping platforms intrusive and largely irrelevant to his meticulous, slow-paced approach to procurement, preferring to source items based on historical integrity rather than algorithmic suggestions.",
+    "id": "436a2507-850e-4f12-b5dc-53e9082c8fce"
+  }
+]

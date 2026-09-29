@@ -1,0 +1,19 @@
+{
+  "product": "AI Personal Shopping Platform",
+  "product_description": "An AI-powered personal shopping platform that provides AI product recommendations, price comparison, personalized shopping feed, review summarization, virtual try-on, price-drop alerts, budget-based shopping, brand comparison, alternative product suggestions, return-policy comparison and an AI shopping assistant.",
+  "target_audience": "Online shoppers aged 18–40",
+  "research_objective": "To understand the preferences, expectations, concerns, and behavioral responses of online shoppers toward an AI-powered personal shopping platform.",
+  "features": [
+    "AI product recommendations",
+    "Price comparison",
+    "Personalized shopping feed",
+    "Review summarization",
+    "Virtual try-on",
+    "Price-drop alerts",
+    "Budget-based shopping",
+    "Brand comparison",
+    "Alternative product suggestions",
+    "Return-policy comparison",
+    "AI shopping assistant"
+  ]
+}
