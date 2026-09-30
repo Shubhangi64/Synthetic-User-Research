@@ -10,9 +10,8 @@ The goal is to create realistic AI-generated research participants with consiste
 
 ---
 
-# 2. Project Development From Milestone 2
+# 2. Project Development
 
-This repository deliberately starts from **Milestone 2** and then continues into **Milestone 3**.
 
 ```text
 MILESTONE 2
