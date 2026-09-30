@@ -1,4 +1,4 @@
-# Milestone 3 Supervisor Demonstration Guide
+# Milestone 3 Demonstration Guide
 
 ## Objective
 Demonstrate the complete flow from synthetic personas to simulated survey/interview responses, validation, insights and product-use scoring.
@@ -43,7 +43,7 @@ python main.py --insights
 ```
 Produces recurring themes, sentiment, agreement/disagreement, behavioral trends, concerns and limitations.
 
-## Supervisor explanation
+## explanation
 
 **Survey Mode:** The same research questions are presented to multiple synthetic users so their simulated preferences can be compared.
 
