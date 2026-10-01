@@ -6,7 +6,7 @@ venv/
 .env.*
 !.env.example
 .vscode/
-results/*.json
-results/*.txt
+#results/*.json
+##results/*.txt
 .DS_Store
 Thumbs.db
