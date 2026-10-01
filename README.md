@@ -1,545 +1,602 @@
 # Generation of AI Powered Synthetic Users for Product Research
 
+An AI-powered synthetic user research platform that generates diverse hypothetical personas and simulates their responses to product research questions using Generative AI.
+
+The system is designed to help researchers perform **early-stage product research, validation, persona analysis, and insight extraction** without requiring a real participant for every exploratory experiment.
+
+> **Current status:** Working Python-based prototype with Gemini, persona generation, fixed-question survey simulation, interview memory, response validation, and insight extraction.
+> **Development direction:** The project is being upgraded toward a production-ready architecture using Python, FastAPI, PostgreSQL, ML-based persona analysis, and stateful AI-agent orchestration.
+
+---
+
 ## 1. Project Overview
 
-This project develops a **Synthetic User Generation Platform powered by Generative AI for product research**.
+Traditional user research can require significant time, money, and participant availability. This project explores whether Generative AI can create useful **synthetic users** for early-stage product research.
 
-The goal is to create realistic AI-generated research participants with consistent demographic, personality, behavioral and preference characteristics. Researchers can then use these synthetic participants to explore product ideas, ask research questions, compare responses and extract early research insights.
+The researcher provides:
 
-> **Research limitation:** Synthetic users are AI simulations. Their outputs should be treated as simulated evidence/hypotheses and should not automatically be considered representative of real human populations.
+* Product description
+* Target audience
+* Research objective
+* Research questions
 
----
+The system then:
 
-# 2. Project Development
+1. Generates synthetic personas.
+2. Gives each persona a consistent demographic and behavioral profile.
+3. Simulates survey responses.
+4. Supports multi-turn persona interviews.
+5. Maintains persona and conversation context.
+6. Validates response consistency and realism.
+7. Extracts research insights.
+8. Calculates quantitative response statistics.
+9. Identifies recurring themes, concerns, behavioral patterns, and feature preferences.
 
-
-```text
-MILESTONE 2
-Foundation
-   |
-   +--> Experiment Workspace
-   |
-   +--> Persona Generation Agent
-   |
-   +--> Synthetic Personas
-   |
-   +--> Persona Memory / Consistency Foundation
-   |
-   v
-MILESTONE 3
-Research Simulation
-   |
-   +--> Survey Mode
-   |
-   +--> Consistency Validation
-   |
-   +--> Diverse Scenario Testing
-   |
-   +--> Interview Mode
-   |
-   +--> Insight Extraction
-   |
-   +--> Would-Use Scoring
-   |
-   +--> Insight Validation
-```
-
-Detailed milestone documentation:
-
-- `MILESTONE_2.md`
-- `MILESTONE_3.md`
-- `PROJECT_ROADMAP.md`
+The generated users are **hypothetical AI-generated participants** and are not replacements for real human participants.
 
 ---
 
-# 3. Current Experiment
+# 2. Project Objective
 
-## Product
+The primary objective is:
+
+> **To develop a Generative AI powered platform for creating synthetic users and simulating product research interactions for early-stage product validation.**
+
+The system focuses on understanding:
+
+* User preferences
+* Expectations
+* Concerns
+* Product feature preferences
+* Trust and adoption behavior
+* Shopping behavior
+* Sentiment
+* Agreement and disagreement patterns
+* Behavioral trends
+
+---
+
+# 3. Current Demonstration
+
+The current experiment uses an:
+
+### Product
 
 **AI Personal Shopping Platform**
 
-## Target Audience
+### Target Audience
 
 **Online shoppers aged 18–40**
 
-## Research Objective
+### Research Objective
 
 > To understand the preferences, expectations, concerns, and behavioral responses of online shoppers toward an AI-powered personal shopping platform.
 
-## Product Features
+### Product Features
 
-- AI product recommendations
-- Price comparison
-- Personalized shopping feed
-- Review summarization
-- Virtual try-on
-- Price-drop alerts
-- Budget-based shopping
-- Brand comparison
-- Alternative product suggestions
-- Return-policy comparison
-- AI shopping assistant
-
-The formal experiment definition is stored in `data/experiment.json`.
-
----
-
-# 4. Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| Python | Main programming language |
-| Gemini API | Generative AI for personas and research responses |
-| `google-genai` | Gemini Python SDK |
-| `python-dotenv` | API key configuration |
-| JSON | Lightweight data and result storage |
-| VS Code | Local development |
-| Git | Version control |
-| GitHub | Project repository |
-
-### Intentionally not used
-
-- SQLite
-- FastAPI
-- Separate database server
-- Complex backend framework
-
-This keeps the academic prototype simple and easy to demonstrate.
+* AI product recommendations
+* Price comparison
+* Personalized shopping feed
+* Review summarization
+* Virtual try-on
+* Price-drop alerts
+* Budget-based shopping
+* Product quality score
+* Brand comparison
+* Alternative product suggestions
+* Return-policy comparison
+* AI shopping assistant
 
 ---
 
-# 5. Repository Structure
-
-```text
-synthetic-user-research/
-│
-├── README.md
-├── MILESTONE_2.md
-├── MILESTONE_3.md
-├── PROJECT_ROADMAP.md
-├── MILESTONE_3_GUIDE.md
-├── main.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-│
-├── data/
-│   ├── experiment.json
-│   └── personas.json
-│
-├── results/
-│   └── .gitkeep
-│
-└── src/
-    ├── __init__.py
-    ├── config.py
-    ├── ai_client.py
-    ├── experiment.py
-    ├── personas.py
-    ├── survey.py
-    ├── interview.py
-    ├── validation.py
-    └── insights.py
-```
-
----
-
-# 6. Milestone 2 — Foundation
-
-## 6.1 Study of Synthetic User Research
-
-The project studies how Generative AI can simulate research participants using structured persona profiles and controlled prompts.
-
-The system does not simply generate a name and description. Each persona contains behavioral attributes that are reused during subsequent interactions.
-
-## 6.2 System Architecture
-
-```text
-Experiment Workspace
-        |
-        v
-Persona Generation Agent
-        |
-        v
-Synthetic Persona Profiles
-        |
-        v
-Persona Memory / Consistency
-        |
-        v
-Multi-turn Persona Interaction
-```
-
-## 6.3 Experiment Workspace
-
-The experiment contains:
-
-- Product
-- Product description
-- Target audience
-- Research objective
-- Product features
-- Research questions
-
-## 6.4 Persona Generation Agent
-
-Each persona contains:
-
-- Name
-- Age
-- Occupation
-- Location
-- Income
-- Personality traits
-- Communication style
-- Decision-making style
-- Shopping frequency
-- Price sensitivity
-- Brand loyalty
-- Review dependence
-- Technology adoption
-- Impulse buying
-- Goals
-- Motivations
-- Pain points
-- Concerns
-- Values
-- Preferred categories
-- Preferred brands
-- Budget preference
-- Important product factors
-- Profile summary
-
-## 6.5 Persona Memory
-
-The interview module keeps conversation history in memory for the current session and supplies the persona profile and previous conversation to the model for each new turn.
-
-No database is required for this prototype.
-
----
-
-# 7. Milestone 3 — Research Simulation
-
-## 7.1 Survey Mode
-
-The same research questions are sent to multiple personas.
-
-Example:
-
-```text
-Question 1: What do you think about AI shopping recommendations?
-Question 2: Would you trust AI for expensive purchases?
-Question 3: Which feature would be most useful?
-Question 4: What is your biggest concern?
-Question 5: Would you use this product? Give a score from 1–5.
-```
-
-Responses are stored and displayed for comparison.
-
-## 7.2 Consistency and Realism Validation
-
-The validation agent checks whether generated answers agree with the persona profile.
-
-Examples:
-
-- High price sensitivity should generally correspond to concern about price/value.
-- High review dependence should generally correspond to checking reviews.
-- Low technology adoption should generally correspond to more cautious AI use.
-- Privacy-conscious personas should generally show stronger privacy concerns.
-
-The validation produces consistency and realism scores plus identified issues.
-
-## 7.3 Diverse Experiment Scenarios
-
-Three sample scenarios are included in `src/config.py`:
-
-- AI Personal Shopping Platform
-- AI Fitness and Workout Platform
-- AI Online Grocery Shopping Platform
-
-Run a scenario with:
-
-```powershell
-python main.py --survey --scenario shopping
-python main.py --survey --scenario fitness
-python main.py --survey --scenario grocery
-```
-
-## 7.4 Interview Mode
-
-A researcher can select one persona and ask multiple questions.
-
-The persona maintains the session history and uses its original profile when answering later questions.
-
-Run:
-
-```powershell
-python main.py --interview
-```
-
-## 7.5 Insight Extraction Agent
-
-The agent analyzes survey and interview responses and extracts:
-
-- Recurring themes
-- Sentiment breakdown
-- Agreement patterns
-- Disagreement patterns
-- Behavioral trends
-- Feature preferences
-- Concerns
-- Segment observations
-- Research implications
-- Limitations
-
-Run:
-
-```powershell
-python main.py --insights
-```
-
-## 7.6 Would-Use Product Score
-
-Each persona provides a structured 1–5 score:
-
-```text
-1 = Definitely No
-2 = Probably No
-3 = Not Sure
-4 = Probably Yes
-5 = Definitely Yes
-```
-
-The system calculates the aggregate average and score distribution while preserving each persona's reasoning.
-
-These are **synthetic experiment results**, not predictions about the actual market.
-
-## 7.7 Insight Validation
-
-The system can be tested with different product scenarios to check whether the extracted themes remain relevant to the responses and whether persona differences are reflected in the results.
-
----
-
-# 8. Windows + VS Code Setup
-
-## Step 1 — Open the project
-
-Open the `synthetic-user-research` folder in VS Code.
-
-## Step 2 — Create a virtual environment
-
-```powershell
-python -m venv .venv
-```
-
-Activate it:
-
-```powershell
-.venv\Scripts\activate
-```
-
-If PowerShell blocks activation:
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-Then activate again.
-
-## Step 3 — Install packages
-
-```powershell
-pip install -r requirements.txt
-```
-
-## Step 4 — Create `.env`
-
-Copy `.env.example` to `.env` and enter your Gemini API key:
-
-```env
-GEMINI_API_KEY=YOUR_REAL_GEMINI_API_KEY
-GEMINI_MODEL=gemini-3.5-flash-lite
-```
-
-**Never commit `.env` or expose the API key on GitHub.**
-
----
-
-# 9. Run Milestone 2 First
-
-This is the recommended demonstration sequence.
-
-### Test Gemini
-
-```powershell
-python main.py --test
-```
-
-### Generate the persona population
-
-```powershell
-python main.py --generate-personas 20
-```
-
-If five personas already exist, the program generates only the missing personas.
-
-### Display personas
-
-```powershell
-python main.py --show-personas
-```
-
-At this point, Milestone 2 has produced the synthetic-user foundation required by Milestone 3.
-
----
-
-# 10. Run Milestone 3
-
-## Survey
-
-```powershell
-python main.py --survey
-```
-
-## Validation
-
-```powershell
-python main.py --validate
-```
-
-## Interview
-
-```powershell
-python main.py --interview
-```
-
-## Insights
-
-```powershell
-python main.py --insights
-```
-
-## Complete demonstration
-
-```powershell
-python main.py --demo
-```
-
-The demo intentionally uses five personas to reduce API usage. The full survey can be run using all available personas.
-
----
-
-# 11. Output Files
-
-After running experiments:
-
-```text
-results/
-├── survey_results.json
-├── validation_results.json
-├── interview_results.json
-└── insights.json
-```
-
-These files provide evidence that the individual Milestone 3 modules executed successfully.
-
----
-
-# 12. GitHub Setup
-
-Create a GitHub repository named:
-
-```text
-synthetic-user-research
-```
-
-From the VS Code terminal:
-
-```powershell
-git init
-git add .
-git commit -m "Start project from Milestone 2 foundation"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/synthetic-user-research.git
-git push -u origin main
-```
-
-After completing Milestone 3:
-
-```powershell
-git add .
-git commit -m "Implement Milestone 3 research simulation"
-git push
-```
-
-Recommended development commits:
-
-```text
-Start project from Milestone 2 foundation
-Add experiment workspace
-Add Gemini API integration
-Add persona generation agent
-Add synthetic persona dataset
-Add persona memory foundation
-Add Survey Mode
-Add consistency validation
-Add diverse experiment scenarios
-Add Interview Mode
-Add Insight Extraction Agent
-Add Would-Use scoring
-Add Milestone 3 validation
-Update project documentation
-```
-
----
-
-
-
-# 13. Final Project Flow
+# 4. System Workflow
 
 ```text
 Researcher
     |
     v
-Experiment Workspace
+Experiment Definition
     |
-    +--> Product
-    +--> Target Audience
-    +--> Research Objective
-    +--> Questions
+    +-- Product
+    +-- Target Audience
+    +-- Research Objective
+    +-- Research Questions
     |
     v
 Persona Generation Agent
     |
     v
-Synthetic User Population
+Synthetic Personas
     |
-    +-------------------+
-    |                   |
-    v                   v
-Survey Mode        Interview Mode
-    |                   |
-    +---------+---------+
+    +-- Demographic Attributes
+    +-- Personality Traits
+    +-- Behavioral Patterns
+    +-- Psychological Profile
+    +-- Shopping Preferences
+    |
+    +--------------------+
+    |                    |
+    v                    v
+Survey Mode         Interview Mode
+    |                    |
+    v                    v
+Fixed Questions     Multi-turn Chat
+    |                    |
+    +---------+----------+
               |
               v
-       Response Dataset
+       Response Validation
               |
               v
-    Consistency Validation
+       Insight Extraction
+              |
+              +-- Themes
+              +-- Sentiment
+              +-- Agreement
+              +-- Disagreement
+              +-- Behavioral Trends
+              +-- Feature Preferences
+              +-- Would-use Analysis
               |
               v
-      Insight Extraction
-              |
-       +------+------+-------+
-       |      |      |       |
-       v      v      v       v
-    Themes Sentiment Agreement Trends
-              |
-              v
-     Would-Use Product Score
-              |
-              v
-       Research Insights
+        Research Results
 ```
 
 ---
+
+# 5. Current Features
+
+## 5.1 Experiment Workspace
+
+The experiment defines the research context:
+
+```text
+Product
+Target Audience
+Research Objective
+Research Questions
+```
+
+This information is provided to the AI modules as research context.
+
+---
+
+## 5.2 Synthetic Persona Generation
+
+The Persona Generation Agent creates hypothetical users with attributes such as:
+
+* Name
+* Age
+* Occupation
+* Location
+* Personality traits
+* Behavioral patterns
+* Psychological profile
+* Price sensitivity
+* Brand loyalty
+* Review dependence
+* Technology adoption
+
+The current experiment contains **20 synthetic personas**.
+
+Example:
+
+```text
+Marcus Vance
+Age: 34
+Occupation: Cybersecurity Analyst
+Location: Austin, TX
+
+Personality:
+- Analytical
+- Skeptical
+- Pragmatic
+- Privacy-conscious
+
+Behavior:
+- Researches products carefully
+- Checks multiple reviews
+- Compares prices
+```
+
+---
+
+# 6. Survey Mode
+
+Survey Mode uses a fixed questionnaire so that every synthetic persona receives the same research questions.
+
+Example questions include:
+
+1. Would you use this AI personal shopping platform? Why or why not?
+2. Which feature would be most useful to you?
+3. What is your biggest concern about using this platform?
+4. Would you trust this platform with your shopping data?
+5. How important is price comparison when shopping online?
+6. How important are product reviews and review summaries?
+7. Would you use virtual try-on?
+8. What feature would make you more comfortable using the platform?
+9. Would you prefer AI recommendations or make shopping decisions yourself?
+10. How likely would you be to use the platform regularly?
+
+Using the same questions enables comparison across personas.
+
+---
+
+# 7. Interview Mode
+
+Interview Mode allows the researcher to select a persona and conduct a multi-turn conversation.
+
+The system provides:
+
+```text
+Persona Profile
++
+Previous Conversation History
++
+Current Question
+```
+
+to the LLM.
+
+This allows the persona to maintain consistency across multiple turns.
+
+Example:
+
+```text
+Researcher:
+Why are you concerned about AI shopping recommendations?
+
+Persona:
+I prefer to verify expensive purchases myself because
+I do not want an algorithm deciding which products I should buy.
+```
+
+A later question can use the previous conversation context.
+
+---
+
+# 8. Persona Memory
+
+The current prototype maintains conversational context using:
+
+```text
+Persona Profile
++
+Conversation History
+```
+
+The long-term production version is planned to use a more structured memory architecture.
+
+Future memory improvements may include:
+
+* Short-term conversation memory
+* Long-term persona memory
+* Important user opinions
+* Previous product interactions
+* Semantic memory using embeddings
+
+---
+
+# 9. Response Validation
+
+After generating responses, the validation module evaluates:
+
+* Persona consistency
+* Response realism
+* Potential issues
+
+Current validation uses an LLM-based evaluator with a 1–5 scoring scale.
+
+Example:
+
+```text
+Consistency: 5/5
+Realism:     5/5
+Status:      PASS
+Issues:      None
+```
+
+### Important limitation
+
+A high LLM evaluation score does **not** prove that a synthetic persona is equivalent to a real human participant.
+
+Future validation will include:
+
+* Schema validation
+* Contradiction detection
+* Cross-question consistency checks
+* Statistical checks
+* Persona similarity analysis
+* Human evaluation
+* Comparison against real-user research where available
+
+---
+
+# 10. Insight Extraction
+
+The Insight Extraction module analyzes the collected synthetic responses.
+
+It currently extracts:
+
+* Summary
+* Recurring themes
+* Sentiment
+* Agreement patterns
+* Disagreement patterns
+* Behavioral trends
+* Feature preferences
+* User concerns
+* Segment observations
+* Research implications
+* Limitations
+* Would-use analysis
+
+The system also performs deterministic calculations in Python where appropriate.
+
+For example:
+
+```text
+Would-use responses: 20
+Average score: 2.4 / 5
+```
+
+The distinction between deterministic Python calculations and LLM-generated qualitative analysis helps make the analysis easier to reproduce and inspect.
+
+---
+
+# 11. Current Results
+
+For the current AI Personal Shopping Platform experiment:
+
+```text
+Number of synthetic personas: 20
+
+Would-use score distribution:
+
+Score 1 → 5 personas
+Score 2 → 6 personas
+Score 3 → 5 personas
+Score 4 → 4 personas
+Score 5 → 0 personas
+
+Average → 2.4 / 5
+```
+
+Recurring themes included:
+
+* Data privacy concerns
+* Algorithmic bias concerns
+* Concerns about sponsored recommendations
+* Need for independent verification
+* Interest in price comparison
+* Interest in review summarization
+
+These results are **synthetic exploratory results** and should not be interpreted as evidence of the actual preferences of the general population.
+
+---
+
+# 12. Technologies Used
+
+## Current Implementation
+
+| Technology       | Purpose                               |
+| ---------------- | ------------------------------------- |
+| Python           | Main programming language             |
+| Gemini           | Generative AI model                   |
+| Google GenAI SDK | Gemini API integration                |
+| JSON             | Current prototype data storage        |
+| Pydantic         | Data validation and structured models |
+| python-dotenv    | Environment variable management       |
+| Git              | Version control                       |
+| GitHub           | Source-code repository                |
+
+---
+
+# 13. Why Python?
+
+Python is used as the primary language because the project is primarily an:
+
+* AI application
+* ML/NLP application
+* Generative AI system
+* Data analysis system
+
+Python provides a strong ecosystem for:
+
+* Machine learning
+* NLP
+* LLM APIs
+* Data processing
+* Statistics
+* Embeddings
+* Clustering
+* Backend development
+
+The project will therefore remain **Python-centric**, even as additional technologies are introduced.
+
+---
+
+# 14. Why Gemini?
+
+The current prototype uses a Gemini Flash-family model through Google's GenAI SDK.
+
+The model was selected for the prototype based on:
+
+* Fast response generation
+* Suitability for high-volume synthetic responses
+* Structured output capabilities
+* Python SDK support
+* Availability and cost considerations
+
+The project does not assume that one LLM is permanently the best choice.
+
+A future AI-provider abstraction will allow different models to be evaluated without changing the main research system.
+
+---
+
+# 15. Current Project Architecture
+
+The current implementation is a modular Python application.
+
+```text
+main.py
+   |
+   +---- config.py
+   |
+   +---- ai_client.py
+   |
+   +---- experiment.py
+   |
+   +---- personas.py
+   |
+   +---- survey.py
+   |
+   +---- interview.py
+   |
+   +---- validation.py
+   |
+   +---- insights.py
+```
+
+### `main.py`
+
+Acts as the main controller/CLI entry point.
+
+### `config.py`
+
+Contains experiment configuration and research settings.
+
+### `ai_client.py`
+
+Centralizes communication with the Gemini API.
+
+### `experiment.py`
+
+Handles experiment and JSON data loading/saving.
+
+### `personas.py`
+
+Responsible for synthetic persona generation.
+
+### `survey.py`
+
+Runs the fixed-question survey.
+
+### `interview.py`
+
+Provides interactive multi-turn persona interviews.
+
+### `validation.py`
+
+Evaluates persona response consistency and realism.
+
+### `insights.py`
+
+Extracts and summarizes research insights.
+
+---
+
+# 16. Current Data Storage
+
+The prototype currently uses JSON files.
+
+```text
+data/
+├── experiment.json
+├── personas.json
+├── personas_generated.json
+├── survey_results.json
+└── validation_results.json
+```
+
+This approach was selected for the initial prototype because it is:
+
+* Simple
+* Easy to inspect
+* Easy to debug
+* Suitable for a small research experiment
+* Easy to version as research artifacts
+
+However, JSON files are not the intended long-term storage architecture for a multi-user production application.
+
+---
+
+# 17. Planned Production Database
+
+The production version will use **PostgreSQL**.
+
+A planned schema includes:
+
+```text
+users
+experiments
+personas
+questions
+responses
+interviews
+messages
+validations
+insights
+reports
+```
+
+Example relationship:
+
+```text
+User
+ |
+ +-- Experiments
+       |
+       +-- Personas
+       |
+       +-- Questions
+       |
+       +-- Responses
+       |
+       +-- Interviews
+       |
+       +-- Insights
+       |
+       +-- Reports
+```
+
+PostgreSQL is suitable because the application contains many relationships between research entities.
+
+---
+
+# 18. Planned Backend Architecture
+
+The production architecture is planned as:
+
+```text
+                Streamlit / Web UI
+                       |
+                       v
+                    FastAPI
+                       |
+                       v
+                Service Layer
+                       |
+        +--------------+--------------+
+        |              |              |
+        v              v              v
+ Persona Service  Survey Service  Interview Service
+        |              |              |
+        +--------------+--------------+
+                       |
+                       v
+                 AI / ML Layer
+                       |
+              +--------+--------+
+              |                 |
+              v                 v
+           Gemini          ML Models
+              |                 |
+              +--------+--------+
+                       |
+                       v
+                  PostgreSQL
+```
+
+---
+
