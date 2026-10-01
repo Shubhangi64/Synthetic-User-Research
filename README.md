@@ -494,15 +494,15 @@ Update project documentation
 
 ---
 
-# 13. Supervisor Demonstration
+# 13. Demonstration
 
 Use this sequence during the meeting:
 
-### Part A — Explain the problem
+### Part A — the problem
 
 Real user research can require time, money and participant recruitment. This project explores whether LLM-generated synthetic users can support early product research and hypothesis generation.
 
-### Part B — Show Milestone 2
+### Part B — Milestone 2
 
 Open:
 
@@ -518,7 +518,7 @@ data/personas.json
 
 Explain how the experiment definition becomes the input to persona generation.
 
-### Part C — Show persona diversity
+### Part C — persona diversity
 
 Use:
 
@@ -528,7 +528,7 @@ python main.py --show-personas
 
 Explain differences in personality, price sensitivity, technology adoption, brand loyalty and review dependence.
 
-### Part D — Show Survey Mode
+### Part D — Survey Mode
 
 ```powershell
 python main.py --survey
@@ -536,7 +536,7 @@ python main.py --survey
 
 Explain that every persona receives the same research questions.
 
-### Part E — Show consistency validation
+### Part E — consistency validation
 
 ```powershell
 python main.py --validate
@@ -544,7 +544,7 @@ python main.py --validate
 
 Explain that the generated responses are checked against the persona profile.
 
-### Part F — Show Interview Mode
+### Part F — Interview Mode
 
 ```powershell
 python main.py --interview
@@ -552,7 +552,7 @@ python main.py --interview
 
 Ask related questions and demonstrate that the persona retains the current conversation.
 
-### Part G — Show Insight Extraction
+### Part G — Insight Extraction
 
 ```powershell
 python main.py --insights
@@ -560,11 +560,11 @@ python main.py --insights
 
 Explain themes, sentiment, agreement, disagreement and behavioral trends.
 
-### Part H — Show Would-Use Score
+### Part H —  Would-Use Score
 
 Explain the 1–5 score and the reasoning stored for each persona.
 
-### Part I — Show GitHub
+### Part I — SGitHub
 
 Open the GitHub repository and show:
 
@@ -577,45 +577,6 @@ Open the GitHub repository and show:
 
 ---
 
-# 14. Viva Questions
-
-### Why use synthetic users?
-
-They allow controlled early-stage simulation of different user profiles without requiring participants for every exploratory experiment.
-
-### How are personas made different?
-
-The generation prompt provides the existing persona summaries and asks the model to vary demographic, behavioral and psychological attributes.
-
-### How is consistency maintained?
-
-The persona profile and conversation history are supplied during subsequent interactions, and a separate validation step checks whether responses remain aligned with the profile.
-
-### Why is JSON used?
-
-The project is an academic prototype and JSON provides simple persistent storage without introducing a database.
-
-### Why are SQLite and FastAPI not used?
-
-They are not necessary for the current prototype. The focus is the synthetic-user research workflow rather than a production web API.
-
-### What does Survey Mode do?
-
-It asks the same questions to multiple synthetic personas and stores their responses for comparison.
-
-### What does Interview Mode do?
-
-It provides a multi-turn conversation with one selected persona while retaining the current session history.
-
-### What does the Insight Agent do?
-
-It analyzes collected responses and identifies themes, sentiment, agreement/disagreement, behavioral trends and segment observations.
-
-### Can these results be treated as real customer data?
-
-No. They are simulated outputs. Real-user research is still required for empirical validation.
-
----
 
 # 15. Current Completion Status
 
